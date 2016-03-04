@@ -109,6 +109,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="EF_Connection.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -148,7 +149,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Start\" />
     <Folder Include="Controls\" />
     <Folder Include="Pages\Admin\" />
     <Folder Include="Pages\Helpers\" />
